@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: black;
   height: 100%;
+  color: #fff;
 }
 
 body {
@@ -114,6 +115,38 @@ body {
   width: 99%;
   display: flex;
   justify-content: center;
+}
+
+header{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+main{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2px;
+    border: 0;
+    padding: 0;
+}
+
+br{
+    margin: 2px;
+    border: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 2rem;
+    margin-top: 2px;
+    border: 0;
+    padding: 0;
 }
 
 .div-1, .div-2, .div-3 {
@@ -140,7 +173,9 @@ body {
     border-right: 1px solid gray;
 } 
 
-
+footer{
+    text-align: center;
+}
 
 
 /* ==========================================================================
